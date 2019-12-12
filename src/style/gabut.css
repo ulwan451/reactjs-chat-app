@@ -1,0 +1,151 @@
+/* .container {
+    font-family: 'Open Sans', sans-serif;
+    height: 77vh;   
+} */
+
+/*-------------------- NAVBAR --------------------*/
+/* ul li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 30px;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+} */
+
+
+/* ul li:hover {
+    background: rgb(0, 204, 160);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.active1 {
+    background: rgb(0, 204, 160);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+} */
+/*-------------------- DESKRPSI RIGHT --------------------*/
+/* .deskripsi {
+    margin-top: 30px;
+}
+
+.right {
+height: 430px;
+
+} */
+/*-------------------- DESKRIPSI LEFT --------------------*/
+/* .twoimage {
+    margin-left: 100px; 
+    margin-top: 50px;
+}
+
+.img2 {
+    margin-left: -150px;
+    margin-bottom: -170px;
+} */
+
+/*-------------------- BUTTON LOGIN   --------------------*/
+/* .buttonlanding {
+    background: #3cebb6;
+    background: -moz-linear-gradient(-45deg,  #29ce97 0%, #0cffc2 50%, #29ce97 51%,  #29ce97 71%,  #29ce97 100%);
+    background: -webkit-linear-gradient(-45deg,  #29ce97 0%,#1dffc7 50% #29ce97 51%, #29ce97 71%, #29ce97 100%);
+    background: linear-gradient(135deg,  #29ce97 0%,#47ffc2 50%, #29ce97 51%, #29ce97 71%, #29ce97 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #29ce97', endColorstr=' #29ce97',GradientType=1 );
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    border: medium none;
+}
+.buttonlanding:hover {
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+} */
+
+/*-------------------- CARD LANDING --------------------*/
+/* .containerr {
+background: grey;
+width: 0px;
+margin-left: 120px;
+margin-top: -20px;
+
+}
+.containerr .cardlanding{
+    cursor: pointer;
+}
+
+.containerr .cardlanding .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.containerr .cardlanding .face.face1{
+    position: relative;
+    background: #b3b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.containerr .cardlanding:hover .face.face1{
+    background: #29ce97;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translateY(0);
+
+} */
+/* 
+.containerr .cardlanding .face.face1 .content{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.containerr .cardlanding:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.containerr .cardlanding .face.face1 .content img{
+    max-width: 100px;
+}
+
+.containerr .cardlanding .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.containerr .cardlanding .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-100px);
+}
+
+.containerr .cardlanding:hover .face.face2{
+    transform: translateY(0);
+}
+
+.containerr .cardlanding .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+} */
+

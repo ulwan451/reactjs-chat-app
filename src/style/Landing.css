@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+.landingCustom{
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+
+.containerr {
+  text-align: center;
+  position: relative;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+.menu {
+  position: relative;
+  width:18em;
+  font-size:1.2em;
+  padding: 1em 0;
+  background: transparent;
+  color: #fff;
+  z-index: 100;
+  border-radius: 10px;
+}
+.navigation {
+    position: relative;
+    right: -1.3px;
+    background: linear-gradient(90deg, #2c9094 0%, #02be99 100%);
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.navigation:hover {
+    background: rgba(0,0,0,0.6);
+}
+
+.opsi{
+  border-radius: 10px;
+  position: absolute;
+  width: 18em;
+  padding: 1em 0;
+  font-size: 1.2em;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+}
+  
+.siji:hover {
+    color: rgba(0,0,0,0.4);
+}
+.loro:hover {
+    color: rgba(0,0,0,0.4);
+}
+.telu:hover {
+    color: rgba(0,0,0,0.4);
+}
+.siji {
+  transition-delay:0;
+  background: transparent;
+  z-index: 50;
+}
+.loro {
+  transition-delay:.1s;
+  background: transparent;
+  z-index: 49;
+}
+.telu{
+  transition-delay:.15s;
+  background: transparent;
+  z-index: 48;
+}
+.containerr:hover > .siji{
+  top: 4.7em;
+}
+
+.containerr:hover > .loro {
+  top: 8.1em;
+}
+
+.containerr:hover > .telu {
+  top: 11.5em;
+}
+
+
+.gambar {
+    position: relative;
+    right: -300px;
+    bottom: -50px;
+}
+
+.page2 {
+    background: linear-gradient(90deg, #01676b 0%, #15cda8 100%);
+}
+
+.page1 a {
+    text-decoration: none;
+    color: #2a1a5e;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 25px;
+    left: -40px;
+    position: relative;
+    font-weight: bold;
+}
+
+.dropdown {
+    padding: 20px;
+    position: relative;
+    float: right;
+    right: -140px;
+    color: white;
+    cursor: pointer;
+}
+.h1 {
+    color: #226652;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -4px;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.isipage {
+ position: relative;
+ bottom: -80px;
+}
+
+.pagebutton {
+    background: #06d194;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: 1px solid #a5a5a5;
+    right: -20px;
+    position: relative;
+}
+.pagebutton:hover {
+    color: black;
+    background: white;
+    border: 1px solid #06d194
+}
+.footer {
+    position: relative;
+    bottom: -60px;
+    color: #000;
+    text-align: center;
+}
+.footer p {
+    position: relative;
+    right: -50px;
+}
+.iconss {
+    padding: 15px;
+    background: #e3e7f1;
+    border-radius: 50%;
+    position: relative;
+    left: -20px;
+    top: -32px;
+    font-size: 12px;
+}
+
+.iconss:hover {
+    background: lightgrey;
+    color: black;
+    box-shadow:  0 1px 1px rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.waveslanding {
+    background-size: cover;
+}
+
+@media screen and (max-width: 800px) {
+    .waveslanding {
+        display: none;
+    }
+    /* .gambar {
+        display: none;
+    } */
+    /* .page2 {
+        display: none;
+    } */
+    .landingCustom {
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .h1 {
+        font-size: 38px;
+    }
+    .desc {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .dropdown {
+        z-index: 99999;
+        position: relative;
+        top: -650px;
+        right: -175px;
+    }
+    .menu {
+        color: orchid;
+    }
+    .containerr {
+        color: #000;
+    }
+    .modal-body {
+        background: palegreen;
+        width: 350px;
+        z-index: 99999;
+    }
+    .modal {
+        width: 300px;
+        height: 300px;
+        z-index: 99999;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .modal-body {
+        background: palegreen;
+        z-index: 99999;
+    }
+    .modal {
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+    }
+}

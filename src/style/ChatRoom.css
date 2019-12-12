@@ -1,0 +1,333 @@
+body{
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpapersin4k.org%2Fwp-content%2Fuploads%2F2017%2F04%2FWhats-Apps-Wallpaper-10.jpg&f=1&nofb=1);
+    
+}
+
+
+
+/* ----------pageMessage------- */
+
+/* ----------- Media Query --------- */
+
+@media only screen and (max-width: 2000px) {
+    
+    .pageChat{
+        width: 100%;
+        height: 85vh;
+        background-attachment: fixed;
+        background: none;
+    }
+    
+    .headerChat {
+        height: 215px;  
+       background-image: url(../img/waves.svg);
+       background-size: cover;
+    }
+    
+    .pageCustom{
+        width: auto;
+        height: auto;
+        background: none;
+    }
+    
+    
+    
+    
+    /* -------- PAGE CONTACT----------- */
+    .pageContact {
+        margin-top: -0px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        margin-left: 75px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #F0FFFF;
+        text-align: center;
+        height: 90vh;
+        width: 30%;
+        float: left;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+    
+    
+    ::-webkit-scrollbar {
+        
+        width: 0.5vw;
+        height: 0px;
+    }
+     
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+        background: rgb(7, 83, 83);
+        visibility: hidden;
+    }
+     
+    ::-webkit-scrollbar-thumb {
+        border-radius: 50px;
+        background: rgba(0,0,0,0.3);
+        visibility: visible;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        
+        visibility: visible;
+    }
+    
+    
+    
+    .headerContact{
+        width: 100%;
+        border-top-left-radius: 10px;
+        height: 7vh;
+        background: rgb(29, 82, 82);
+    }
+    
+    .iconProfile{
+        margin-left: 1vw;
+        margin-top: 0.5vh;
+        width: 3vw;
+        height: 6vh;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        color: #fff;
+        float: left;
+        font-size: 20px;
+        border-radius: 100%;
+        border: 1px solid #fff;
+    }
+    
+    
+    
+    .nameUser{
+        margin-left: 6vw;
+        width: 20vw;
+        height: 7vh;
+        align-items: center;
+        align-content: center;
+        justify-content: left;
+        display: flex;
+        color: #fff;
+        padding: 4.5vh 0%;
+        font-weight: bold;
+        font-size: 15px;
+        background: none;
+    }
+    
+    .iconProfile:hover, .nameUser:hover{
+        color: #ccc;
+        cursor: pointer;
+    }
+    
+    .contentContact{
+        color: rgba(0,0,0,0.6);
+        width: 101.1%;
+        height: 82.9vh;
+        background: none;
+        overflow: auto;
+    }
+    
+    .imgContact{
+        width: 4vw;
+        height: 8vh;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        color: teal;
+        font-size: 30px;
+        background: none;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 50%;
+        float: left;
+    }
+    
+    .list-group-item:hover{
+        cursor: pointer;
+        background: #eee;
+        color: #000;
+    }
+    
+    /* ----------pageContact--------- */
+    
+    /* ------profileAccount In Modal------ */
+    
+    
+    .imgProfileAccount{
+        width: 10vw;
+        height: 18vh;
+        margin-left: 11.5vw;
+        align-items: center;
+        align-content: center;
+        position: relative;
+        z-index: 5;
+        justify-content: center;
+        display: flex;
+        border-radius: 50%;
+    }
+    
+    .infoProfileAccount{
+        width: 100%;
+        height: auto;
+        background: blue;
+    }
+    
+    #card-body{
+        height: 8.5vh;
+    }
+    
+    #card-body:hover{
+        transform: scale(1.1);
+    }
+    
+    .btnChangeInfo{
+        position: relative;
+        left: 8.3vw;
+        top: 1.5vh;
+    }
+    
+    /* ------profileAccount In Modal------ */
+    
+    /* --------dropdown--------- */
+    
+    #dropdown{
+        position: relative;
+        bottom: 88vh;
+        display: inline-block;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    
+    #dropdown-content {
+        display: none;
+        right: 0vw;
+        top: 5vh;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 15vw;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+    
+      #dropdown:hover #dropdown-content {
+        display: block;
+      } 
+    
+      #btn-dropdown{
+          width: 12vw;
+          text-align: left;
+          font-weight: bold;
+          color: rgba(0,0,0,0.6);
+      }
+    
+      #close-modal{
+          border-radius: 100px;
+          border: 2px solid rgba(0,0,0,0.3);
+          text-align: center;
+          position: relative;
+          left: 14vw;
+      }
+    
+      #close-modal:hover{
+          background: red;
+          color: #fff;
+          border: 2px solid red;
+      }
+    
+    /* --------dropdown--------- */
+    
+    /* ----------pageMessage------- */
+    .pageMessage {
+        margin-top: -189px;
+        margin-left: 35vw;
+        font-family: 'Open Sans', sans-serif;
+        background-color: lavender;
+        text-align: center;
+        height: 90vh;
+        width: 58%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        padding-bottom: 13vh;
+    }
+    
+    .headerMessage{
+        width: 100%;
+        height: 7vh;
+        border-top-right-radius: 10px;
+        background: rgb(29, 82, 82);
+    }
+    
+    
+    .iconBar{
+        margin-left: 53vw;
+        width: 5vw;
+        height: 5vh;
+        color: #fff;
+        background: none;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    
+    .iconBar:hover{
+        color: #ccc;
+        cursor: pointer;
+    }
+    
+    .contentMessage{
+        height: 90%;
+        overflow: auto;
+        
+    }
+    
+    .iconContent{
+        position: relative;
+        top: 20vh;
+        margin-left: 30%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        font-size: 70px; 
+        width: 25vw;
+        height: 35vh;
+        background: none;
+    }
+
+    .btnUploadImg{
+    border-radius: 5px;
+    background: rgba(29, 82, 82);
+    background: -moz-linear-gradient(-45deg,  #29ce97 0%, #0cffc2 50%, #29ce97 51%,  #29ce97 71%,  #29ce97 100%);
+    background: -webkit-linear-gradient(-45deg,  #29ce97 0%,#1dffc7 50% #29ce97 51%, #29ce97 71%, #29ce97 100%);
+    background: linear-gradient(135deg,  #29ce97 0%,#47ffc2 50%, #29ce97 51%, #29ce97 71%, #29ce97 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #29ce97', endColorstr=' #29ce97',GradientType=1 );
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    border: medium none;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    position: absolute;
+    left: 8vw;
+    top: 6vh;
+    }
+
+    .btnUploadImg:hover{
+        box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    }
+
+  }
+
+ 
+
+/* ----------- Media Query --------- */
+
