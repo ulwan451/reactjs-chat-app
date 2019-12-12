@@ -109,45 +109,6 @@ export default function gabut() {
                 </div>
               </div>
             </div>
-            <Animated
-              animationIn="fadeInLeft"
-              animationOut="rollOut"
-              animationInDuration={1500}
-              animationOutDuration={1000}
-              isVisible={true}
-            >
-              <div
-                style={{
-                  position: "absolute",
-                  bottom: "10vh",
-                  right: "13vw",
-                  color: "#fff"
-                }}
-              >
-                <h5>Supported By </h5>
-                <br />
-
-                <img
-                  alt=""
-                  style={{
-                    width: "10vw",
-                    height: "15vh",
-                    borderRadius: "10px"
-                  }}
-                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.DR5d2nwcAb0CkONa4bOSrQHaHa%26pid%3DApi&f=1"
-                />
-                <img
-                  alt=""
-                  style={{
-                    width: "10vw",
-                    height: "15vh",
-                    borderRadius: "10px",
-                    marginLeft: "5vw"
-                  }}
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqFZcaENY26kQzBnL-9v9CFfiGTFRpYNcSsSbQRa1oR3vdA4-r"
-                />
-              </div>
-            </Animated>
           </div>
         </div>
       </div>
