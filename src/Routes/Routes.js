@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import React from "react";
 import Login from "../container/Login";
-import Home from "../container//Home";
 import Register from "../container/Resgister";
 import Landing from "../components/Landing";
+import HomePage from "../container/Home-Page";
 
 export default function Routes() {
   return (
@@ -12,7 +12,7 @@ export default function Routes() {
         <Route exact path="/" component={Landing} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
-        <Route path="/home" component={Home} />
+        <Route path="/chatpage" component={HomePage} />
       </Router>
     </div>
   );

@@ -1,0 +1,56 @@
+.landingCustom{
+    height: 100vh;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1497377825569-02ad2f9edb81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1366&q=80");
+    .landingContainer {
+        height: 100vh;
+        background-color:rgba(15, 14, 32, 0.87);
+        padding: 18vmin 1vmin;
+        padding-bottom: 35vmin;
+        .rows-landing {
+            .text-left {
+                color: #8481AB;
+                line-height: 1.875rem;
+            }
+            .content-left {
+                margin-top: 90px;
+          
+                .double-btn {
+                    margin-top: 40px;
+                }
+                .pagebutton {
+                    display: inline-block;
+                    font-weight: 400;
+                    text-align: center;
+                    vertical-align: middle;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    background-color: transparent;
+                    border: 1px solid transparent;
+                    padding: 0.5625rem 0.875rem calc(0.5625rem - 1px);
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    border-radius: 0.25rem;
+                    color: #8481AB;
+                    background: #232235;
+                    text-transform: uppercase;
+                }
+                .two-btn {
+                    color: #fff;
+                    background-color: #2bb49d;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .landingCustom {
+      height: 140vh;
+      .landingContainer {
+        height: 140vh;
+      }
+  }
+}

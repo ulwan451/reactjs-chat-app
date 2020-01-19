@@ -1,0 +1,59 @@
+.col-none {
+    display: none;
+}
+.sidebar-chat {
+    position: fixed;
+    width: 230px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: 1s;
+    box-shadow: inset 0px 0px 10px 0px #a5a5a5;
+    background: #F2F5F8;
+    background: rgb(201, 243, 237);
+    z-index: 999999;
+}
+.top {
+    z-index: 999999;
+}
+.profile {
+    margin-top: 30px;
+}
+.content-chat {
+    height: 100vh;
+}
+.list-sidebar {
+    margin-top: 40px;
+    .aktif {
+        color: rgb(90, 90, 90);
+        background: rgba(50, 214, 165, 0.473);
+        font-weight: bold;
+    }
+    li {
+        padding: 15px 10px 15px 10px;
+        list-style-type: none;
+        color: rgb(90, 90, 90);
+        font-size: 14px;
+        margin: 10px;
+        position: relative;
+        left: -13px;
+        border-radius: 8px;
+        cursor: pointer;
+        i {
+            margin-right: 5px;
+        }
+    }
+    .bottom-text {
+        bottom: 0;
+        position: fixed;
+        margin: 0px 50px;
+        p{
+            font-size: 15px;
+            color: #363636;
+            padding-top: 15px;
+            padding-right: 10px;
+        }
+    }
+}
+

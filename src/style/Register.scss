@@ -1,0 +1,35 @@
+/* FONT GOOGLE */
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.register {
+    .left-title {
+        a {
+            text-decoration: none;
+            color: #2bb49d;    
+        }
+
+    }
+    .title-register {
+        color:  #2bb49d;    
+    }
+    i {
+        color:  #2bb49d;    
+    }
+    .btn-register {
+        width: 100%;
+        color: #fff;    
+    }
+    .btn-register-google {
+        width: 100%;
+        border: 1px solid rgb(224, 221, 221);
+        background: rgb(245, 244, 244);
+        color: grey;
+    }
+}
